@@ -1,7 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>吴迪团队</title>
+  <style>
+    /* 重置浏览器默认样式 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    main {
+      max-width: 1000px;
+      width: 100%;
+      margin: auto;
+      padding: 2rem;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 1rem;
+      border-radius: 8px 8px 0 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around; /* 横向布局并均匀分布 */
+      padding: 0;
+      margin-top: 1rem;
+    }
+
+    nav ul li {
+      flex: 1; /* 每个栏目平分空间 */
+      margin: 0 1rem;
+      padding: 1rem;
+      background-color: #f8f8f8;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li:hover {
+      background-color: #e0e0e0;
+    }
+
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+      font-size: 1.5rem;
+      display: block;
+    }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <main>
+    <header>
+      <h1>吴迪团队</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="personal-info.html">个人信息</a></li>
+        <li><a href="research-progress.html">研究进展</a></li>
+        <li><a href="publications.html">论文著作</a></li>
+        <li><a href="patents.html">发明专利</a></li>
+      </ul>
+    </nav>
+  </main>
 </body>
 </html>
